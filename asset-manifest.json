@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/shopolo-web/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/shopolo-web/static/js/main.67c87789.chunk.js",
-    "main.js.map": "/shopolo-web/static/js/main.67c87789.chunk.js.map",
-    "runtime-main.js": "/shopolo-web/static/js/runtime-main.c2b1a3a9.js",
-    "runtime-main.js.map": "/shopolo-web/static/js/runtime-main.c2b1a3a9.js.map",
-    "static/js/2.d8af74a7.chunk.js": "/shopolo-web/static/js/2.d8af74a7.chunk.js",
-    "static/js/2.d8af74a7.chunk.js.map": "/shopolo-web/static/js/2.d8af74a7.chunk.js.map",
-    "static/js/3.faff4aac.chunk.js": "/shopolo-web/static/js/3.faff4aac.chunk.js",
-    "static/js/3.faff4aac.chunk.js.map": "/shopolo-web/static/js/3.faff4aac.chunk.js.map",
+    "main.css": "/shopolo-web/static/css/main.700c4d4a.chunk.css",
+    "main.js": "/shopolo-web/static/js/main.c5e7c0bd.chunk.js",
+    "main.js.map": "/shopolo-web/static/js/main.c5e7c0bd.chunk.js.map",
+    "runtime-main.js": "/shopolo-web/static/js/runtime-main.5325073d.js",
+    "runtime-main.js.map": "/shopolo-web/static/js/runtime-main.5325073d.js.map",
+    "static/js/2.ec1b9933.chunk.js": "/shopolo-web/static/js/2.ec1b9933.chunk.js",
+    "static/js/2.ec1b9933.chunk.js.map": "/shopolo-web/static/js/2.ec1b9933.chunk.js.map",
+    "static/js/3.a0d83cd0.chunk.js": "/shopolo-web/static/js/3.a0d83cd0.chunk.js",
+    "static/js/3.a0d83cd0.chunk.js.map": "/shopolo-web/static/js/3.a0d83cd0.chunk.js.map",
     "index.html": "/shopolo-web/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/shopolo-web/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.d8af74a7.chunk.js.LICENSE.txt": "/shopolo-web/static/js/2.d8af74a7.chunk.js.LICENSE.txt"
+    "static/css/main.700c4d4a.chunk.css.map": "/shopolo-web/static/css/main.700c4d4a.chunk.css.map",
+    "static/js/2.ec1b9933.chunk.js.LICENSE.txt": "/shopolo-web/static/js/2.ec1b9933.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2b1a3a9.js",
-    "static/js/2.d8af74a7.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.67c87789.chunk.js"
+    "static/js/runtime-main.5325073d.js",
+    "static/js/2.ec1b9933.chunk.js",
+    "static/css/main.700c4d4a.chunk.css",
+    "static/js/main.c5e7c0bd.chunk.js"
   ]
 }
