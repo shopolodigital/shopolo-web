@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/static/js/main.67c87789.chunk.js",
-    "main.js.map": "/static/js/main.67c87789.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0f603534.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0f603534.js.map",
-    "static/js/2.d8af74a7.chunk.js": "/static/js/2.d8af74a7.chunk.js",
-    "static/js/2.d8af74a7.chunk.js.map": "/static/js/2.d8af74a7.chunk.js.map",
-    "static/js/3.faff4aac.chunk.js": "/static/js/3.faff4aac.chunk.js",
-    "static/js/3.faff4aac.chunk.js.map": "/static/js/3.faff4aac.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.d8af74a7.chunk.js.LICENSE.txt": "/static/js/2.d8af74a7.chunk.js.LICENSE.txt"
+    "main.css": "/shopolo-web/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/shopolo-web/static/js/main.67c87789.chunk.js",
+    "main.js.map": "/shopolo-web/static/js/main.67c87789.chunk.js.map",
+    "runtime-main.js": "/shopolo-web/static/js/runtime-main.c2b1a3a9.js",
+    "runtime-main.js.map": "/shopolo-web/static/js/runtime-main.c2b1a3a9.js.map",
+    "static/js/2.d8af74a7.chunk.js": "/shopolo-web/static/js/2.d8af74a7.chunk.js",
+    "static/js/2.d8af74a7.chunk.js.map": "/shopolo-web/static/js/2.d8af74a7.chunk.js.map",
+    "static/js/3.faff4aac.chunk.js": "/shopolo-web/static/js/3.faff4aac.chunk.js",
+    "static/js/3.faff4aac.chunk.js.map": "/shopolo-web/static/js/3.faff4aac.chunk.js.map",
+    "index.html": "/shopolo-web/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/shopolo-web/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d8af74a7.chunk.js.LICENSE.txt": "/shopolo-web/static/js/2.d8af74a7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f603534.js",
+    "static/js/runtime-main.c2b1a3a9.js",
     "static/js/2.d8af74a7.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.67c87789.chunk.js"
