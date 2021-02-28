@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className="NavBarContainer">
                     <LinkR to="/" className="NavLogo" alt="logo">
                         <img src={logo} id="logoImg" alt="logo" />
-                        <img src={logoText} id="logoText" />
+                        <img src={logoText} id="logoText" alt="logo"/>
                     </LinkR>
                     <div className="MobileIcon">
                         <FaBars />
