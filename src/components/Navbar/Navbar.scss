@@ -31,7 +31,7 @@ nav {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    margin-left: 16px;
     font-weight: bold;
     text-decoration: none;
     #logoImg {
@@ -56,12 +56,29 @@ nav {
 
 .MobileIcon {
     display: none;
+    margin-right: 10px;
+    .hamLine {
+        width: 26px;
+        height: 3.25px;
+        margin-top: 6px;
+        border-radius: 5px;
+        transition: 0.8s all ease;
+        background: linear-gradient(104.25deg, #A267E6 0%, #7566E6 100%);
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+    }
+    .active {
+        margin-left: 9.75px;
+        transition: 0.8s all ease;
+        background: linear-gradient(104.25deg, #A267E6 0%, #7566E6 100%);
+    }
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        top: 0;
+        top: 50%;
         right: 0;
-        transform: translate(-100%, 50%);
+        transform: translate(-50%, -50%);
         font-size: 1.8rem;
         cursor: pointer;
     }
