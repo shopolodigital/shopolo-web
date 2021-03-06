@@ -21,8 +21,8 @@ const SeeMore = () => {
     ]
     return (
         <div className="SeeMoreContainer">
-            {imgs.map(x => (
-                <div><img src={x} /></div>
+            {imgs.map((x, i) => (
+                <div key={i}><img src={x} alt={i}/></div>
             ))}
             <button className="SeeMoreButton">SEE MORE</button>
         </div>
