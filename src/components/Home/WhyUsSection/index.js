@@ -35,7 +35,7 @@ const WhyUs = () => {
             <p className="Heading">Why Us?</p>
             <div className="DetailsContainer">
                 {data.map(x => (
-                    <div>
+                    <div key={x.head}>
                         <img src={x.img} alt={x.head} />
                         <p className="Title">{x.head}</p>
                         <p className="Description">{x.desc}</p>
