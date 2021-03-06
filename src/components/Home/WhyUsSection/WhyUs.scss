@@ -1,0 +1,38 @@
+.WhyUsContainer {
+    padding: 20px 80px 20px 80px;
+    .Heading {
+        font-style: normal;
+        font-weight: bolder;
+        letter-spacing: 0.03px;
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        line-height: 78px;
+        color: #262626;
+    }
+    .DetailsContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        div {
+            z-index: 2;
+            padding-right: 50px;
+            img {
+                margin: 36px 0;
+            }
+            .Title {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 46px;
+            }
+            .Description {
+                margin-top: 26px;
+                margin-bottom: 40px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 29px;
+            }
+        }
+    }
+}
