@@ -1,7 +1,7 @@
 import React from 'react'
 import "./WhyUs.scss"
 // icons
-import Globalized from "../../../static/WhyUsResources/globalized.svg"
+import Globalized from "../../../static/WhyUsResources/globalised.svg"
 import ForkLink from "../../../static/WhyUsResources/forklink.svg"
 import Royalty from "../../../static/WhyUsResources/royalty.svg"
 import Support from "../../../static/WhyUsResources/support.svg"
