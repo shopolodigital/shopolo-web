@@ -1,5 +1,6 @@
 .WhyUsContainer {
-    padding: 20px 80px 20px 80px;
+    padding: 20px 80px 80px 120px;
+    background: linear-gradient(-28deg, #DFD0F7 25.97%, rgba(255, 255, 255, 0) 134.49%);
     .Heading {
         font-style: normal;
         font-weight: bolder;
@@ -17,21 +18,46 @@
             z-index: 2;
             padding-right: 50px;
             img {
-                margin: 36px 0;
+                margin-top: 50px;
+                padding: 25px 25px;
+                background: linear-gradient(309.6deg, #D8BCF6 5.28%, rgba(252, 248, 254, 0) 160.4%);
+                border-radius: 14px;
+                box-shadow: -0.7px 0.7px 1.5px white;
             }
             .Title {
                 font-style: normal;
                 font-weight: 600;
+                margin-top: 26px;
                 font-size: 38px;
                 line-height: 46px;
             }
             .Description {
-                margin-top: 26px;
                 margin-bottom: 40px;
                 font-style: normal;
+                margin-top: 15px;
                 font-weight: normal;
+                letter-spacing: 0.01em;
                 font-size: 16px;
                 line-height: 29px;
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        padding: 20px 0 20px 50px;
+        .Heading {
+            font-size: 30px;
+            padding-top: 30px;
+        }
+        .DetailsContainer { 
+            grid-template-columns: auto;
+            div{
+                img {
+                    margin-top: 20px;
+                }
+                .Title {
+                    font-size: 25px;
+                    margin-top: 15px;
+                }
             }
         }
     }
