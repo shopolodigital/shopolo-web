@@ -1,9 +1,15 @@
+.Hide {
+    display: none;
+}
+.Deactivate {
+    opacity: 0.5;
+}
 .TestimonialHolder {
     background-color: #262626;
     text-align: center;
     .Heading {
         font-weight: bold;
-        padding-top: 98px;
+        padding: 80px 0 20px 0;
         font-size: 50px;
         line-height: 60px;
         background: linear-gradient(309.6deg, #A267E6 5.28%, #7566E6 160.4%);
@@ -13,63 +19,61 @@
     .TestimonialNavMobile {
         display: none;
     }
-    .Testimonials {
-        display: grid;
-        grid-template-columns: 10% auto 10%;
-        justify-items: center;
-        align-items: center;
-        .TestimonialBtn {
-            border-style: none;
-            cursor: pointer;
-            font-size: 15px;
-            font-weight: 200;
-            letter-spacing: 0.03px;
-            display: flex;
+    .Mobile {
+        display: none;
+    }
+    .Desktop {
+        .Testimonials {
+            display: grid;
+            grid-template-columns: 10% auto 10%;
+            justify-items: center;
             align-items: center;
-            justify-content: center;
-            font-weight: 900;
-            color: #000000;
-            border-radius: 50%;
-            color: white;
-            cursor: pointer;
-            height: 50px;
-            width: 50px;
-            background: linear-gradient(309.6deg, #CEAAF5 5.28%, #fff 160.4%);
-            backdrop-filter: blur(4.03693px);
-            .ArrowIcon {
-                color: #7E46BD;
-            }
-        }
-        .MidSection {
-            .Description {
-                padding: 80px 236px;
-                color: white;
-                font-size: 20px;
-                line-height: 40px;
-                letter-spacing: 0.03em;
-            }
-            .Who {
+            .TestimonialBtn {
+                border-style: none;
+                cursor: pointer;
+                font-size: 15px;
+                font-weight: 200;
+                letter-spacing: 0.03px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding-bottom: 70px;
-                .ProfilePic {
-                    width: 100px;
-                    object-fit: cover;
-                    border-radius: 50%;
-                    height: 100px;
-                }
-                p {
-                    b {
-                        font-size: 20px;
-                        font-weight: 600;
-                    }
-                    text-align: left;
-                    margin-left: 15px;
-                    color: white;
-                    font-size: 16px;
+                font-weight: 900;
+                color: #000000;
+                border-radius: 50%;
+                color: white;
+                cursor: pointer;
+                height: 45px;
+                width: 45px;
+                background: linear-gradient(309.6deg, #CEAAF5 5.28%, #fff 160.4%);
+                backdrop-filter: blur(4.03693px);
+                .ArrowIcon {
+                    color: #7E46BD;
                 }
             }
+            .Parent {
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+        }
+    }
+    .Dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+        .Dot {
+            width: 10px;
+            height: 10px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+            opacity: 0.2;
+        }
+        .Active {
+            opacity: 1.0;
         }
     }
     @media screen and (max-width: 768px) {
@@ -78,79 +82,31 @@
             line-height: 40px;
             margin: 0 30px;
             text-align: left;
+            padding-top: 50px;
         }
-        .Testimonials {
-            grid-template-columns: auto;
-            .TestimonialBtn {
-                display: none;
+        .Desktop {
+            display: none;
+        }
+        .Mobile {
+            display: flex;
+        }
+        .Dots {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 0 25px 0;
+            .Dot {
+                width: 10px;
+                height: 10px;
+                margin: 10px;
+                border-radius: 50%;
+                background-color: white;
+                opacity: 0.5;
             }
-            .MidSection {
-                .Description {
-                    font-size: 15px;
-                    line-height: 23px;
-                    padding: 50px 30px;
-                    letter-spacing: 0.02em;
-                    text-align: left;
-                }
-                .Who {
-                    display: flex;
-                    justify-content: left;
-                    padding: 0 0 40px 30px;
-                    .ProfilePic {
-                        width: 50px;
-                        object-fit: cover;
-                        border-radius: 50%;
-                        height: 50px;
-                    }
-                    p {
-                        b {
-                            font-size: 15px;
-                            font-weight: 600;
-                        }
-                        text-align: left;
-                        margin-left: 15px;
-                        color: white;
-                        font-size: 12px;
-                    }
-                }
+            .Active {
+                opacity: 1.0;
             }
         }
-        .TestimonialNavMobile {
-            display: grid;
-            grid-template-columns: auto auto;
-            padding: 50px 0;
-            div {
-                .TestimonialBtn {
-                    border-style: none;
-                    cursor: pointer;
-                    font-size: 15px;
-                    font-weight: 200;
-                    letter-spacing: 0.03px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    font-weight: 900;
-                    color: #000000;
-                    border-radius: 30%;
-                    color: white;
-                    cursor: pointer;
-                    height: 50px;
-                    width: 50px;
-                    background: linear-gradient(309.6deg, #CEAAF5 5.28%, #fff 160.4%);
-                    backdrop-filter: blur(4.03693px);
-                    .ArrowIcon {
-                        color: #7E46BD;
-                    }
-                }
-                .Prev {
-                    margin-left: 30px;
-                }
-                .Next {
-                    position: relative;
-                    float: right;
-                    margin-right: 30px;
-                }
-            }
-        }
+        
     }
 }

@@ -1,0 +1,146 @@
+.MilestoneHolder {
+    background: url("../../../static/milestones_bg.svg") 0 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 82px 0;
+    .Heading {
+        font-style: normal;
+        font-weight: bolder;
+        letter-spacing: 0.03px;
+        font-size: 50px;
+        padding-bottom: 10px;
+        line-height: 78px;
+        color: #262626;
+        text-align: center;
+    }
+    .Count {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        letter-spacing: 0.03px;
+        &__RevenueText {
+            background: linear-gradient(309.6deg, #4277FF 30%, #071EED 60%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &__CatalogsText {
+            background: linear-gradient(309.6deg, #A81CD9 30%, #620DB7 60%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &__ArtistsText {
+            background: linear-gradient(309.6deg, #4277FF 30%, #071EED 60%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &__LabelsText {
+            background: linear-gradient(309.6deg, #A81CD9 30%, #620DB7 60%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &__StreamsText {
+            background: linear-gradient(309.6deg, #E306C0 30%, #B70D87 60%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .Card {
+        background-color: white;
+        box-shadow: 0px 34px 80px -16px rgba(0, 0, 0, 0.2);
+        display: block;
+        margin-top: 50px;
+        border-radius: 21px;
+        padding: 20px;
+    }
+    break {
+        flex-basis: 100%;
+        width: 0px; 
+        height: 0px; 
+        overflow: hidden;
+    }
+    .Description {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: #4F4F4F;
+    }
+    .Desktop {
+        display: grid;
+        grid-template-rows: auto auto;
+        .Top {
+            display: grid;
+            grid-template-columns: auto auto;
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+        .Bottom {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    .Mobile {
+        display: none;
+    }
+    @media screen and (max-width: 1024px) {
+        .Heading {
+            font-size: 30px;
+            margin: 0 30px;
+            line-height: 40px;
+        }
+        .Desktop {
+            display: none;
+        }
+        .Mobile {
+            display: grid;
+            grid-template-rows: auto;
+            div {
+                text-align: center;
+                position: relative;
+                .Card {
+                    width: 300px;
+                    text-align: center;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        padding: 50px 0 50px 0;
+        .Desktop {
+            display: none;
+        }
+        .Count {
+            font-size: 30px;
+        }
+        .Description {
+            font-size: 16px;
+        }
+        .Mobile {
+            display: grid;
+            grid-template-rows: auto;
+            div {
+                text-align: center;
+                position: relative;
+                .Card {
+                    width: 250px;
+                    text-align: center;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                }
+            }
+        }
+    }
+}
