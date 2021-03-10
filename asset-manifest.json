@@ -1,27 +1,35 @@
 {
   "files": {
-    "main.css": "/shopolo-web/static/css/main.a6889edf.chunk.css",
-    "main.js": "/shopolo-web/static/js/main.ff88b83b.chunk.js",
-    "main.js.map": "/shopolo-web/static/js/main.ff88b83b.chunk.js.map",
-    "runtime-main.js": "/shopolo-web/static/js/runtime-main.8e708e6f.js",
-    "runtime-main.js.map": "/shopolo-web/static/js/runtime-main.8e708e6f.js.map",
-    "static/js/2.c9b3a635.chunk.js": "/shopolo-web/static/js/2.c9b3a635.chunk.js",
-    "static/js/2.c9b3a635.chunk.js.map": "/shopolo-web/static/js/2.c9b3a635.chunk.js.map",
-    "static/js/3.8187d622.chunk.js": "/shopolo-web/static/js/3.8187d622.chunk.js",
-    "static/js/3.8187d622.chunk.js.map": "/shopolo-web/static/js/3.8187d622.chunk.js.map",
+    "main.css": "/shopolo-web/static/css/main.3aa2420c.chunk.css",
+    "main.js": "/shopolo-web/static/js/main.fb26367e.chunk.js",
+    "main.js.map": "/shopolo-web/static/js/main.fb26367e.chunk.js.map",
+    "runtime-main.js": "/shopolo-web/static/js/runtime-main.55f3f8e2.js",
+    "runtime-main.js.map": "/shopolo-web/static/js/runtime-main.55f3f8e2.js.map",
+    "static/css/2.8ba2ca54.chunk.css": "/shopolo-web/static/css/2.8ba2ca54.chunk.css",
+    "static/js/2.1cc72afa.chunk.js": "/shopolo-web/static/js/2.1cc72afa.chunk.js",
+    "static/js/2.1cc72afa.chunk.js.map": "/shopolo-web/static/js/2.1cc72afa.chunk.js.map",
+    "static/js/3.271c4d8f.chunk.js": "/shopolo-web/static/js/3.271c4d8f.chunk.js",
+    "static/js/3.271c4d8f.chunk.js.map": "/shopolo-web/static/js/3.271c4d8f.chunk.js.map",
     "index.html": "/shopolo-web/index.html",
-    "static/css/main.a6889edf.chunk.css.map": "/shopolo-web/static/css/main.a6889edf.chunk.css.map",
-    "static/js/2.c9b3a635.chunk.js.LICENSE.txt": "/shopolo-web/static/js/2.c9b3a635.chunk.js.LICENSE.txt",
+    "static/css/2.8ba2ca54.chunk.css.map": "/shopolo-web/static/css/2.8ba2ca54.chunk.css.map",
+    "static/css/main.3aa2420c.chunk.css.map": "/shopolo-web/static/css/main.3aa2420c.chunk.css.map",
+    "static/js/2.1cc72afa.chunk.js.LICENSE.txt": "/shopolo-web/static/js/2.1cc72afa.chunk.js.LICENSE.txt",
     "static/media/IntroImage.63056642.svg": "/shopolo-web/static/media/IntroImage.63056642.svg",
     "static/media/forklink.6cd96549.svg": "/shopolo-web/static/media/forklink.6cd96549.svg",
     "static/media/globalised.56d90b24.svg": "/shopolo-web/static/media/globalised.56d90b24.svg",
+    "static/media/Milestone.scss": "/shopolo-web/static/media/milestones_bg.1520431e.svg",
+    "static/media/relax.066c3d87.svg": "/shopolo-web/static/media/relax.066c3d87.svg",
     "static/media/royalty.ffd82d76.svg": "/shopolo-web/static/media/royalty.ffd82d76.svg",
-    "static/media/support.140dc6a7.svg": "/shopolo-web/static/media/support.140dc6a7.svg"
+    "static/media/signup.9501ec28.svg": "/shopolo-web/static/media/signup.9501ec28.svg",
+    "static/media/support.140dc6a7.svg": "/shopolo-web/static/media/support.140dc6a7.svg",
+    "static/media/upload.fece95a9.svg": "/shopolo-web/static/media/upload.fece95a9.svg",
+    "static/media/verified.6987eef8.svg": "/shopolo-web/static/media/verified.6987eef8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e708e6f.js",
-    "static/js/2.c9b3a635.chunk.js",
-    "static/css/main.a6889edf.chunk.css",
-    "static/js/main.ff88b83b.chunk.js"
+    "static/js/runtime-main.55f3f8e2.js",
+    "static/css/2.8ba2ca54.chunk.css",
+    "static/js/2.1cc72afa.chunk.js",
+    "static/css/main.3aa2420c.chunk.css",
+    "static/js/main.fb26367e.chunk.js"
   ]
 }
