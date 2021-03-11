@@ -6,6 +6,7 @@ import WhyUs from '../../components/Home/WhyUsSection'
 import Testimonials from '../../components/Home/Testimonials'
 import HowWeWork from '../../components/Home/HowWeWork'
 import Milestone from '../../components/Home/MilestoneSection'
+import PrioritySection from '../../components/Home/PrioritySection'
 
 const HomeScreen = () => {
     return (
@@ -15,6 +16,7 @@ const HomeScreen = () => {
             <SeeMore />
             <WhyUs />
             <HowWeWork />
+            <PrioritySection />
             <Testimonials />
             <Milestone />
         </div>

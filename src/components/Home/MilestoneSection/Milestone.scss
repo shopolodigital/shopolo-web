@@ -95,7 +95,6 @@
     }
     @media screen and (max-width: 1024px) {
         .Heading {
-            font-size: 30px;
             margin: 0 30px;
             line-height: 40px;
         }
@@ -119,6 +118,9 @@
     }
     @media screen and (max-width: 768px) {
         padding: 50px 0 50px 0;
+        .Heading {
+            font-size: 30px;
+        }
         .Desktop {
             display: none;
         }

@@ -1,0 +1,66 @@
+.PriorityHolder {
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    .Heading {
+        font-style: normal;
+        font-weight: bolder;
+        letter-spacing: 0.03px;
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        line-height: 78px;
+        color: #262626;
+    }
+    .Subhead {
+        font-size: 20px;
+        color: #262626;
+    }
+    .CategoriesHolder {
+        display: grid;
+        grid-template-columns: auto auto;
+        div {
+            padding: 40px 0;
+            img {
+                max-width: 320px;
+            }
+            button {
+                margin-top: 50px;
+                padding: 12px 50px;
+                background: #EADCF9;
+                border-style: none;
+                border-radius: 7px;
+                font-family: Poppins;
+                font-weight: 800;
+                cursor: pointer;
+                font-size: 15px;
+                letter-spacing: 0.05em;
+                color: #4F3FC6;
+                transition: transform 0.3s;
+                &:hover {
+                    transform: scale(1.2);
+                    transition: ease-in-out 0.2s;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 1024px) {
+        .CategoriesHolder {
+            grid-template-columns: auto;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .Heading {
+            font-size: 30px;
+        }
+        .Subhead {
+            font-size: 16px;
+        }
+        .CategoriesHolder {
+            div {
+                img {
+                    max-width: 250px;
+                }
+            }
+        }
+    }
+}
